@@ -1,4 +1,4 @@
-package com.github.jesushzc.core.data
+package com.github.jesushzc.core.data.preferences
 
 import android.content.SharedPreferences
 import com.github.jesushzc.core.domain.model.ActivityLevel
@@ -86,5 +86,15 @@ class DefaultPreferences(
             proteinRatio = proteinRatio,
             fatRatio = fatRatio
         )
+    }
+
+    override fun saveShouldShowOnBoarding(shouldShow: Boolean) {
+        sharedPref.edit()
+            .putBoolean(Preferences.KEY_SHOULD_SHOW_ON_BOARDING, shouldShow)
+            .apply()
+    }
+
+    override fun loadShouldShowOnBoarding(): Boolean {
+        return sharedPref.getBoolean(Preferences.KEY_SHOULD_SHOW_ON_BOARDING, true)
     }
 }

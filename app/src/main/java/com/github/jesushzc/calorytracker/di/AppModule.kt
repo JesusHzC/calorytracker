@@ -3,7 +3,7 @@ package com.github.jesushzc.calorytracker.di
 import android.app.Application
 import android.content.Context.MODE_PRIVATE
 import android.content.SharedPreferences
-import com.github.jesushzc.core.data.DefaultPreferences
+import com.github.jesushzc.core.data.preferences.DefaultPreferences
 import com.github.jesushzc.core.domain.preferences.Preferences
 import com.github.jesushzc.core.domain.use_case.FilterOutDigits
 import dagger.Module
