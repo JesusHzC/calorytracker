@@ -1,4 +1,4 @@
-package com.github.jesushzc.calorytracker.ui.theme
+package com.github.jesushzc.core_ui
 
 import androidx.compose.ui.graphics.Color
 
