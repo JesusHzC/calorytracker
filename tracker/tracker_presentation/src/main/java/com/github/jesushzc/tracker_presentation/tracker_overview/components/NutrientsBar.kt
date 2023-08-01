@@ -35,17 +35,17 @@ fun NutrientsBar(
     }
     LaunchedEffect(key1 = carbs) {
         carbWidthRadio.animateTo(
-            targetValue = ((carbs * 4f) / calories)
+            targetValue = ((carbs * 4f) / calorieGoal)
         )
     }
     LaunchedEffect(key1 = protein) {
         proteinWidthRadio.animateTo(
-            targetValue = ((protein * 4f) / calories)
+            targetValue = ((protein * 4f) / calorieGoal)
         )
     }
     LaunchedEffect(key1 = fat) {
         fatWidthRadio.animateTo(
-            targetValue = ((fat * 9f) / calories)
+            targetValue = ((fat * 9f) / calorieGoal)
         )
     }
     Canvas(modifier = modifier) {

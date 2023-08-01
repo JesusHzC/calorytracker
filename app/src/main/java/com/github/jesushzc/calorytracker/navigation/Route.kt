@@ -1,4 +1,4 @@
-package com.github.jesushzc.core.navigation
+package com.github.jesushzc.calorytracker.navigation
 
 object Route {
     const val WELCOME = "welcome"
