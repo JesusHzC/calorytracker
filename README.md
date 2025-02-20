@@ -22,7 +22,7 @@ Take control of your nutrition and reach your goals! 💪🔥
 - Shared preferences
 - Room
 
-## Screenshot
+## Screenshots
 <p align="center">
   <img src="./screens/onboarding.png" height="650">
   <img src="./screens/home.png" height="650">
